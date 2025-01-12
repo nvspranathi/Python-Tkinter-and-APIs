@@ -29,8 +29,8 @@ root.configure(bg="#ADD8E6")
 root.title("Student Registration form")
 
 name_label = tk.Label(root,text="Enter Name")
-name_label.pack(anchor=tk.W,padx=10)
-name_textbox = tk.Entry(root)
+name_label.pack(anchor=tk.W,padx=10) # anchor=tk.W says align towards west
+name_textbox = tk.Entry(root) # to take the input, entry is an empty space that will be seen on UI
 name_textbox.pack(anchor=tk.W,padx=10)
 
 email_label = tk.Label(root,text="Enter Email")
